@@ -1,0 +1,39 @@
+{
+  "db_name": "university_database",
+  "tables": {
+    "department": [],
+    "course": [],
+    "prereq": [],
+    "class": [],
+    "faculty": [],
+    "student": [
+      {
+        "ssn": 10,
+        "name": "John Smith",
+        "major": "OR",
+        "status": "active"
+      },
+      {
+        "ssn": 15,
+        "name": "John Smith",
+        "major": "CS",
+        "status": "active"
+      }
+    ],
+    "enrollment": [],
+    "transcript": [
+      {
+        "dcode": "CS",
+        "cno": 530,
+        "ssn": 10,
+        "grade": "A"
+      },
+      {
+        "dcode": "CS",
+        "cno": 530,
+        "ssn": 15,
+        "grade": "B"
+      }
+    ]
+  }
+}

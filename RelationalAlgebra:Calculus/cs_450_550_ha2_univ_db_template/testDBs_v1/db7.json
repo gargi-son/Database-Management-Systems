@@ -1,0 +1,87 @@
+{
+  "db_name": "university_database",
+  "tables": {
+    "department": [],
+    "course": [
+      {
+        "dcode": "CS",
+        "cno": 330,
+        "title": "Formal Methods",
+        "units": 3
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125,
+        "title": "Discrete Mathematics",
+        "units": 3
+      },
+      {
+        "dcode": "CS",
+        "cno": 211,
+        "title": "object-oriented programming",
+        "units": 3
+      }
+    ],
+    "prereq": [
+      {
+        "dcode": "CS",
+        "cno": 330,
+        "pcode": "CS",
+        "pno": 211
+      },
+      {
+        "dcode": "CS",
+        "cno": 330,
+        "pcode": "MTH",
+        "pno": 125
+      }
+    ],
+    "class": [
+      {
+        "class": 21,
+        "dcode": "CS",
+        "cno": 330,
+        "instr": 25
+      },
+      {
+        "class": 22,
+        "dcode": "CS",
+        "cno": 330,
+        "instr": 35
+      }
+    ],
+    "faculty": [],
+    "student": [
+      {
+        "ssn": 82,
+        "name": "Tom Cruise",
+        "major": "HIST",
+        "status": "active"
+      }
+    ],
+    "enrollment": [
+      {
+        "class": 21,
+        "ssn": 82
+      },
+      {
+        "class": 22,
+        "ssn": 82
+      }
+    ],
+    "transcript": [
+      {
+        "dcode": "CS",
+        "cno": 211,
+        "ssn": 82,
+        "grade": "A"
+      },
+      {
+        "dcode": "MTH",
+        "cno": 125,
+        "ssn": 82,
+        "grade": "B"
+      }
+    ]
+  }
+}
